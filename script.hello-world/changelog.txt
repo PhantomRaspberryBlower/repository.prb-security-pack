@@ -1,0 +1,17 @@
+v1.0.1
+- Initial release
+
+v0.0.5
+- Made changes to show output in XBMC Dialog control
+
+v0.0.4
+- Added 'Goodbye' dialog on exit. Swapped SELECT and INFO buttons
+
+v0.0.3
+- Changed settings to use $CWD to shorten path. Added icon and license
+
+v0.0.2
+- Changed settings and Hello World Font-Size
+
+v0.0.1
+- Initial version

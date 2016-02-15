@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32001">
+        <setting id="fanart" type="bool" label="30002" default="true"/>
+        <setting label="32011" type="text"   id="username" default="Phantom Raspberry Blower"/>
+        <setting type="sep"/>
+	<setting label="32013" type="action" action="RunScript($CWD/addon.py)" default="Click to run Hello World"/>
+    </category>
+</settings>
