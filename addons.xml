@@ -50,7 +50,6 @@
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <language>en</language>
     <summary lang="en">Dashcam Recorder</summary>
     <description lang="en">Records video of camera (PiCamera) connected to a Raspberry Pi via the camera serial connector (CSI).</description>
     <disclaimer lang="en">Use at your risk</disclaimer>

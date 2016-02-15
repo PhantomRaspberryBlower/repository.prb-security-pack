@@ -7,13 +7,12 @@
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <language>en</language>
     <summary lang="en">Dashcam Recorder</summary>
     <description lang="en">Records video of camera (PiCamera) connected to a Raspberry Pi via the camera serial connector (CSI).</description>
-    <disclaimer lang="en"></disclaimer>
+    <disclaimer lang="en">Use at your own risk</disclaimer>
     <language></language>
     <platform>all</platform>
-    <license>MIT License</license>
+    <license></license>
     <forum>http://forum.phantonraspberryblower.co.uk/showthread.php?tid=00001</forum>
     <website>http://www.phantomraspberryblower.co.uk</website>
     <email>support@phantomraspberryblower.co.uk</email>
