@@ -21,6 +21,27 @@
   </extension>
 </addon>
 
+<addon id="script.gps-locator" name="GPS Locator" version="1.0.1" provider-name="Phantom Raspberry Blower">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GPS Locator</summary>
+    <description lang="en">Addon for communicating with an Adafruit Ultimate GPS device. Polls the device for current date & time, latitude, longitude, altitude, speed and heading. You can vary how often and for how long to log the details.</description>
+    <disclaimer lang="en">Use at your own risk</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="repository.prb-security-pack" name="PRB Security Repository" version="1.0.1" provider-name="Phantom Raspberry Blower">
   <extension point="xbmc.addon.repository" name="PRB Security Repository">
     <info compressed="false">http://raw.github.com/PhantomRaspberryBlower/repository.prb-security-pack/master/addons.xml</info>

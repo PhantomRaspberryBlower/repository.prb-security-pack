@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.gps-locator" name="GPS Locator" version="1.0.1" provider-name="Phantom Raspberry Blower">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">GPS Current Location</summary>
+    <description lang="en">Dislays the current time; latitude; longitude; altitude; speed; heading and rate of climb. Options for sending log via email. Tested using an Adafruit Ultimate GPS Breakout connected to a Raspberry Pi via the GPIO serial connector (ttyAMA0).</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>MIT License</license>
+    <forum>http://forum.phantonraspberryblower.co.uk/showthread.php?tid=00001</forum>
+    <website>http://www.phantomraspberryblower.co.uk</website>
+    <email>support@phantomraspberryblower.co.uk</email>
+    <source></source>
+  </extension>
+</addon>

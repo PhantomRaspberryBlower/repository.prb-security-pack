@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="true"?>
+<strings>
+	<!-- General Settings -->
+	<string id="30000">General</string>
+	<string id="30001">Enable GPS</string>
+	<string id="30002">Refresh Interval (seconds)</string>
+
+
+
+	<string id="30003">Duration (minutes)</string>
+	<string id="30004">Enable Log</string>
+	<string id="30005">Enable SMS Commands</string>
+
+
+        <string id="30006">SMS Keyword:</string>
+	<string id="30007">Enable Email</string>
+	<string id="30008">Email To</string>
+        <string id="30009">Email From</string>
+        <string id="30010">SMTP Server</string>
+        <string id="30011">SMTP Port</string>
+        <string id="30012">Username</string>
+        <string id="30013">Password</string>
+        <string id="30014">Serial Connection</string>
+	<string id="30015">ttyAMA0</string>
+
+
+	<string id="30016">ttyUSB0</string>
+
+
+	<string id="30017">ttyUSB1</string>
+
+
+	<string id="30018">ttyUSB2</string>
+
+
+	<string id="30019">ttyUSB3</string>
+
+
+        <!-- GUI Settings -->
+        <string id="10000">GPS Location</string>
+        <string id="10001">Press SELECT to run</string>
+        <string id="10002">GPS Time:</string>
+        <string id="10003">Latitude:</string>
+        <string id="10004">Longitude:</string>
+        <string id="10005">Altitude:</string>
+        <string id="10006">Speed:</string>
+        <string id="10007">Heading:</string>
+        <string id="10008">Rate of Climb:</string>
+        <string id="10009">No GPS Fix</string>
+        <string id="10010">Please wait</string>
+        <string id="10011">seconds</string>
+        <string id="10012">Email sent successfully :)</string>
+        <string id="10013">Something wicked happened :(</string>
+        <string id="10014">Time</string>
+        <string id="10015">Latitude</string>
+        <string id="10016">Longitude</string>   
+        <string id="10017">Altitude (ft.)</string>
+        <string id="10018">Speed (mph)</string>
+        <string id="10019">Heading (deg. (true))</string>
+        <string id="10020">Rate of Climb (ft./min.)</string>
+</strings>

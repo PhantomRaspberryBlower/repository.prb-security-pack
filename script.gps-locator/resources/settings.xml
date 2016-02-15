@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <!-- General Settings -->
+    <category label="30000">
+        <setting label="30001" default="false" id="gps_enabled" type="bool"/>
+        <setting label="30002" default="1" id="refresh_interval" type="slider" range="1, 1, 10" option="int" enable="eq(-1,true)"/>
+        <setting label="30003" default="1" id="duration" type="slider" range="1, 1, 10" option="int" enable="eq(-2,true)"/>
+        <setting label="30004" default="false" id="log_enabled" type="bool" enable="eq(-3,true)"/>
+        <setting label="30005" default="false" id="sms_commands_enabled" type="bool" enable="eq(-4,true)"/>
+        <setting type="lsep" label="SMS Settings" visible="eq(-1,true)"/>
+        <setting label="30006" default="ping-pong" id="sms_keyword" type="text" enable="eq(-6,true)" visible="eq(-2,true)"/>
+        <setting type="sep"/>
+        <setting label="30007" default="false" id="email_enabled" type="bool" enable="eq(-8,true)"/>
+        <setting type="lsep" label="Email Settings" visible="eq(-1,true)"/>
+        <setting label="30008" default="" id="email_recipient" type="text" enable="eq(-10,true)" visible="eq(-2,true)"/>
+        <setting label="30009" default="" id="email_sender" type="text" enable="eq(-11,true)" visible="eq(-3,true)"/>
+        <setting label="30010" default="" id="smtp_server" type="text" enable="eq(-12,true)" visible="eq(-4,true)"/>
+        <setting label="30011" default="25" id="smtp_server_port" type="text" enable="eq(-13,true)" visible="eq(-5,true)"/>
+        <setting label="30012" default="" id="username" type="text" enable="eq(-14,true)" visible="eq(-6,true)"/>
+        <setting label="30013" default="" id="password" type="text" enable="eq(-15,true)" visible="eq(-7,true)" option="hidden"/>
+        <setting type="sep"/>
+        <setting label="30014" default="4" id="serial_connector" type="enum" lvalues="30019|30018|30017|30016|30015" enable="eq(-17,true)"/>
+    </category>
+</settings>
