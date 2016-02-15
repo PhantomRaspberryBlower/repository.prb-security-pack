@@ -42,6 +42,28 @@
   </extension>
 </addon>
 
+<addon id="script.dashcam" name="Dashcam" version="1.0.1" provider-name="Phantom Raspberry Blower">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Dashcam Recorder</summary>
+    <description lang="en">Records video of camera (PiCamera) connected to a Raspberry Pi via the camera serial connector (CSI).</description>
+    <disclaimer lang="en">Use at your risk</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>MIT License</license>
+    <forum>http://forum.phantonraspberryblower.co.uk/showthread.php?tid=00001</forum>
+    <website>http://www.phantomraspberryblower.co.uk</website>
+    <email>support@phantomraspberryblower.co.uk</email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="repository.prb-security-pack" name="PRB Security Repository" version="1.0.1" provider-name="Phantom Raspberry Blower">
   <extension point="xbmc.addon.repository" name="PRB Security Repository">
     <info compressed="false">http://raw.github.com/PhantomRaspberryBlower/repository.prb-security-pack/master/addons.xml</info>
