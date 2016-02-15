@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="true"?>
+<strings>
+	<!-- General Settings -->
+      <string id="30000">General</string>
+      <string id="30001">Enable Snapshot</string>
+      <string id="30002">Image Quality</string>
+      <string id="30003">Image Resolution</string>
+      <string id="30004">Enable Log</string>
+      <string id="30005">Enable SMS Commands</string>
+      <string id="30006">SMS Keyword:</string>
+      <string id="30007">Enable Email</string>
+      <string id="30008">Email To</string>
+      <string id="30009">Email From</string>
+      <string id="30010">SMTP Server</string>
+      <string id="30011">SMTP Port</string>
+      <string id="30012">Username</string>
+      <string id="30013">Password</string>
+      <string id="30014">1920x1080</string>
+      <string id="30015">1280x800</string>
+      <string id="30016">1280x720</string>
+      <string id="30017">800x600</string>
+      <string id="30018">640x480</string>
+      <string id="30019">Output Path</string>
+      <string id="30020">Enable Text Overlay</string>
+      <string id="30021">Display GPS Location</string>
+      <!-- GUI Settings -->
+      <string id="10000">Snapshot</string>
+      <string id="10001">Press SELECT to take snapshot</string>
+      <string id="10002">Email sent successfully :)</string>
+      <string id="10003">Something wicked happened :(</string>
+      <string id="10004">Latitude:</string>
+      <string id="10005">Longitude:</string>
+      <string id="10006">Altitude:</string>
+      <string id="10007">Speed:</string>
+      <string id="10008">Time:</string>
+</strings>

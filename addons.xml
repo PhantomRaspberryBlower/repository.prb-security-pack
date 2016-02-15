@@ -63,6 +63,27 @@
   </extension>
 </addon>
 
+<addon id="script.snapshot" name="Snapshot" version="1.0.1" provider-name="Phantom Raspberry Blower">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Snapshot Image</summary>
+    <description lang="en">Takes a snap-shot image using a Pi Camera connected to a Raspberry Pi via the camera serial connector (CSI).</description>
+    <disclaimer lang="en">Use at your own risk</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum>http://forum.phantonraspberryblower.co.uk/showthread.php?tid=00001</forum>
+    <website>http://www.phantomraspberryblower.co.uk</website>
+    <email>support@phantomraspberryblower.co.uk</email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="repository.prb-security-pack" name="PRB Security Repository" version="1.0.1" provider-name="Phantom Raspberry Blower">
   <extension point="xbmc.addon.repository" name="PRB Security Repository">
     <info compressed="false">http://raw.github.com/PhantomRaspberryBlower/repository.prb-security-pack/master/addons.xml</info>
