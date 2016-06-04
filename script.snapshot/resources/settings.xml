@@ -17,12 +17,12 @@
         <setting type="sep"/>
         <setting label="30007" default="false" id="email_enabled" type="bool" enable="eq(-13,true)"/>
         <setting type="lsep" label="Email Settings" visible="eq(-1,true)"/>
-        <setting label="30008" default="jason@bulis.co.uk" id="email_to" type="text" enable="eq(-15,true)" visible="eq(-2,true)"/>
-        <setting label="30009" default="controlsystem@bulis.co.uk" id="email_from" type="text" enable="eq(-16,true)" visible="eq(-3,true)"/>
-        <setting label="30010" default="auth.smtp.1and1.co.uk" id="smtp_server" type="text" enable="eq(-17,true)" visible="eq(-4,true)"/>
+        <setting label="30008" default="" id="email_to" type="text" enable="eq(-15,true)" visible="eq(-2,true)"/>
+        <setting label="30009" default="" id="email_from" type="text" enable="eq(-16,true)" visible="eq(-3,true)"/>
+        <setting label="30010" default="" id="smtp_server" type="text" enable="eq(-17,true)" visible="eq(-4,true)"/>
         <setting label="30011" default="25" id="smtp_server_port" type="text" enable="eq(-18,true)" visible="eq(-5,true)"/>
-        <setting label="30012" default="controlsystem@bulis.co.uk" id="username" type="text" enable="eq(-19,true)" visible="eq(-6,true)"/>
-        <setting label="30013" default="Bul15.CS" id="password" type="text" enable="eq(-20,true)" visible="eq(-7,true)" option="hidden"/>
+        <setting label="30012" default="" id="username" type="text" enable="eq(-19,true)" visible="eq(-6,true)"/>
+        <setting label="30013" default="" id="password" type="text" enable="eq(-20,true)" visible="eq(-7,true)" option="hidden"/>
         <setting type="sep"/>
     </category>
 </settings>

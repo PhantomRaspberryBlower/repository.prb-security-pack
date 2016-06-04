@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="true"?>
+<strings>
+	<!-- General Settings -->
+      <string id="30000">General</string>
+      <string id="30001">Candle Function</string>
+      <string id="30002">Thermometer</string>
+      <string id="30003">Sundial</string>
+      <string id="30004">Emails</string>
+	<!-- Email Settings -->
+      <string id="40000">Email</string>
+      <string id="40001">Account</string>
+      <string id="40002">Username</string>
+      <string id="40003">Password</string>
+      <string id="40004">SMTP Server</string>
+      <string id="40005">SMTP Port</string>
+      <string id="40006">IMAP Server</string>
+      <string id="40007">IMAP Port</string>
+      <string id="40008">Sync Interval (minutes)</string>
+      <string id="40020">Red</string>
+      <string id="40021">Blue</string>
+      <string id="40022">Green</string>
+      <string id="40023">Orange</string>
+      <string id="40024">Purple</string>
+      <string id="40030">Account</string>
+      <string id="40031">Subject</string>
+      <string id="40032">Unread</string>
+      <string id="40040">Red Senders</string>
+      <string id="40041">Green Senders</string>
+      <string id="40042">Blue Senders</string>
+      <string id="40043">Yellow Senders</string>
+      <string id="40044">Pink Senders</string>
+      <string id="40045">Sky Senders</string>
+      <string id="40046">White Senders</string>
+      <string id="40050">Red Email(s)</string>
+      <string id="40051">Red Subject(s)</string>
+      <string id="40052">Green Email(s)</string>
+      <string id="40053">Green Subject(s)</string>
+      <string id="40054">Blue Email(s)</string>
+      <string id="40055">Blue Subject(s)</string>
+      <string id="40056">Yellow Email(s)</string>
+      <string id="40057">Yellow Subject(s)</string>
+      <string id="40058">Pink Email(s)</string>
+      <string id="40059">Pink Subject(s)</string>
+      <string id="40060">Sky Email(s)</string>
+      <string id="40061">Sky Subject(s)</string>
+      <string id="40062">White Email(s)</string>
+      <string id="40063">White Subject(s)</string>
+</strings>

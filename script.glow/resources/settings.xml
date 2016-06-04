@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <!-- General Settings -->
+    <category label="30000">
+        <setting label="30001" default="30002" id="candle_function" type="select" values="-|30002|30003|30004" />
+    </category>
+    <!-- Email Settings -->
+    <category label="40000">
+        <setting label="40001" default="" id="email_account" type="text" />
+        <setting label="40002" default="" id="email_username" type="text" />
+        <setting label="40003" default="" id="email_password" type="text" />
+        <setting label="40004" default="" id="smtp_server" type="text" />
+        <setting label="40005" default="25" id="smtp_port" type="number" />
+        <setting label="40006" default="" id="imap_server" type="text" />
+        <setting label="40007" default="993" id="imap_port" type="number" />
+        <setting label="40008" default="15" id="sync_interval" type="number" />
+        <setting type="lsep" label="40040" />
+        <setting label="40050" default="" id="red_email" type="text" />
+        <setting label="40051" default="" id="red_subject" type="text" />
+        <setting type="lsep" label="40041" />
+        <setting label="40050" default="" id="green_email" type="text" />
+        <setting label="40051" default="" id="green_subject" type="text" />d
+        <setting type="lsep" label="40042" />
+        <setting label="40050" default="" id="blue_email" type="text" />
+        <setting label="40051" default="" id="blue_subject" type="text" />
+        <setting type="lsep" label="40043" />
+        <setting label="40050" default="" id="yellow_email" type="text" />
+        <setting label="40051" default="" id="yellow_subject" type="text" />
+        <setting type="lsep" label="40044" />
+        <setting label="40050" default="" id="pink_email" type="text" />
+        <setting label="40051" default="" id="pink_subject" type="text" />
+        <setting type="lsep" label="40045" />
+        <setting label="40050" default="" id="sky_email" type="text" />
+        <setting label="40051" default="" id="sky_subject" type="text" />
+        <setting type="lsep" label="40046" />
+        <setting label="40050" default="" id="white_email" type="text" />
+        <setting label="40051" default="" id="white_subject" type="text" />
+    </category>
+</settings>
